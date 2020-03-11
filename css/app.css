@@ -209,6 +209,12 @@ body {
     .card-header {
       height: 350px;
       width: 550px; } }
+  @media print {
+.card-header{
+  width: 300px;
+
+}
+  }
   .card-header__photo {
     border-radius: 50%;
     width: 60px;
